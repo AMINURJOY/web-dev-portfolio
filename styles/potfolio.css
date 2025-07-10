@@ -1,0 +1,86 @@
+
+.open-sans-nomal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* TEXT COLOUR */
+.text-primary{
+     color: #FD6E0A;
+}
+.dark-2{
+     color: #474747;
+}
+
+/* button */
+.btn-primary{
+     background: #FD6E0A;
+     color: white;
+     font-weight: bold;
+     border: none;
+     font-size: 20px;
+     padding: 18px 35px;
+     border-radius: 5px;
+
+}
+
+/* header */
+.header{
+     background-image: url("../images/developer.png"),url(../images/header_bg.png);
+     background-repeat: no-repeat;
+     background-position: top left,bottom right;
+}
+
+/* nav style */
+/* paper bap */
+/* ekhan e 2 ta vchaile er moddhe operation h3,ul */
+nav {
+     display: flex;
+     align-items: center;
+     /* space betwwen 2 mathai niye jabe chle gulake */
+     justify-content: space-between;
+     margin: 0  200px;
+}
+.nav-title{
+     font-weight:800;
+     font-size: 45px;
+}
+/* pap */
+nav ul{
+     display: flex;
+     align-items: center;
+}
+/* child li */
+nav ul li{
+     list-style: none;
+     margin-right: 50px;
+}
+nav ul li a{
+     text-decoration: none;
+     font-size: 20px;
+}
+/* banner style */
+.banner{
+     display: flex;
+     justify-content:space-between;
+     margin: 0 35px 0 200px;
+}
+.banner-content{
+     width: 585px;
+     height: 356px;
+}
+.banner-greeting{
+     font-weight: 700;
+     font-size: 45px;
+
+}
+.banner-title{
+     font-weight: bold;
+     font-size: 85px;
+
+}
+.banner-picture{
+     width: 584px;
+}
